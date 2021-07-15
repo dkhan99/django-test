@@ -33,7 +33,8 @@ SECRET_KEY = os.environ.get(
 
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['https://fatidique-chaise-72487.herokuapp.com/']
+ALLOWED_HOSTS = ['fatidique-chaise-72487.herokuapp.com/', '127.0.0.1']
+
 
 # Application definition
 
