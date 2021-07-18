@@ -33,8 +33,8 @@ SECRET_KEY = os.environ.get(
 
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1',
-                 'https://fatidique-chaise-72487.herokuapp.com/']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0',
+                 '.herokuapp.com']
 
 
 # Application definition
